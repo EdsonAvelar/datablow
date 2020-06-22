@@ -2,5 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/qfbvp75llt5h/public_html
-    - /bin/rm -rf $DEPLOYPATH/*
-    - /bin/cp -rf _site/* $DEPLOYPATH
+    - /bin/cp -R /home/qfbvp75llt5h/repositories/datablow/_site $DEPLOYPATH
