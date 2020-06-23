@@ -3,9 +3,10 @@ name: 'DataBlow'
 description: 'Um blog para falar de dados'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
+url: 'http://www.adrianoavelar.com'
 baseurl: ''
 disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
+email: 'eam.avelar@gmail.com'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 include: ["_pages"]
@@ -19,13 +20,13 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    Adriano:
+    adriano:
       name:           Adriano
-      site:           https://datablow.com.br
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Adriano, author of DataBlow, a blog to discuss all about data, hope you like it!"
+      site:           https://adrianoavelar.com.br
+      avatar:         assets/images/avatar1.jpg
+      bio:            "Olá, me chamo Adriano Avelar, criador do blog DataBox, que é um espaço "
       email:          eam.avelar@gmail.com
-      twitter:        https://twitter.com/edson.avelar
+      twitter:        https://twitter.com/AdrianoAvelar14
  
 # Defaults
 defaults:
