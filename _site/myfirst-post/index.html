@@ -4,24 +4,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Meu primeiro post | DataBlow</title>
+    <title>Primeiro Post | DataBlow</title>
 
     <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Meu primeiro post | DataBlow</title>
+<title>Primeiro Post | DataBlow</title>
 <meta name="generator" content="Jekyll v3.8.6" />
-<meta property="og:title" content="Meu primeiro post" />
+<meta property="og:title" content="Primeiro Post" />
 <meta name="author" content="adriano" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Olá. Me chamo Adriano Avelar, sou responsável pelo blog datablow. Primeiro post" />
-<meta property="og:description" content="Olá. Me chamo Adriano Avelar, sou responsável pelo blog datablow. Primeiro post" />
+<meta name="description" content="Olá. Me chamo Adriano Avelar, sou Engenheiro da Computação formado pela Universidade Federal do Pará. Tenho Doutorado em Computação pela Universidade Federal de Pernambuco. Já morei em Belém, Recife e agora estou em São Paulo." />
+<meta property="og:description" content="Olá. Me chamo Adriano Avelar, sou Engenheiro da Computação formado pela Universidade Federal do Pará. Tenho Doutorado em Computação pela Universidade Federal de Pernambuco. Já morei em Belém, Recife e agora estou em São Paulo." />
 <link rel="canonical" href="http://localhost:4000/myfirst-post/" />
 <meta property="og:url" content="http://localhost:4000/myfirst-post/" />
 <meta property="og:site_name" content="DataBlow" />
-<meta property="og:image" content="http://localhost:4000/assets/images/home.jpg" />
+<meta property="og:image" content="http://localhost:4000/assets/images/demo1.jpg" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-01-18T00:00:00-03:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","image":"http://localhost:4000/assets/images/home.jpg","url":"http://localhost:4000/myfirst-post/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"adriano"},"author":{"@type":"Person","name":"adriano"},"headline":"Meu primeiro post","dateModified":"2019-01-18T00:00:00-03:00","datePublished":"2019-01-18T00:00:00-03:00","description":"Olá. Me chamo Adriano Avelar, sou responsável pelo blog datablow. Primeiro post","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/myfirst-post/"},"@context":"http://schema.org"}</script>
+{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/myfirst-post/"},"datePublished":"2019-01-18T00:00:00-03:00","url":"http://localhost:4000/myfirst-post/","image":"http://localhost:4000/assets/images/demo1.jpg","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"adriano"},"author":{"@type":"Person","name":"adriano"},"headline":"Primeiro Post","description":"Olá. Me chamo Adriano Avelar, sou Engenheiro da Computação formado pela Universidade Federal do Pará. Tenho Doutorado em Computação pela Universidade Federal de Pernambuco. Já morei em Belém, Recife e agora estou em São Paulo.","dateModified":"2019-01-18T00:00:00-03:00","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -124,8 +124,8 @@ var documents = [{
     }, {
     "id": 7,
     "url": "http://localhost:4000/",
-    "title": "Mundana Free Jekyll Theme",
-    "body": "  {% if page. url ==  /  %}            {% assign latest_post = site. posts[0] %}          &lt;div class= topfirstimage  style= background-image: url({% if latest_post. image contains  ://  %}{{ latest_post. image }}{% else %} {{site. baseurl}}/{{ latest_post. image}}{% endif %}); height: 200px;  background-size: cover;  background-repeat: no-repeat; &gt;&lt;/div&gt;           {{ latest_post. title }}  :       {{ latest_post. excerpt | strip_html | strip_newlines | truncate: 136 }}               In         {% for category in latest_post. categories %}        {{ category }},         {% endfor %}                                {{ latest_post. date | date: '%b %d, %Y' }}                            {%- assign second_post = site. posts[1] -%}                        {% if second_post. image %}                         &lt;img class= w-100  src= {% if second_post. image contains  ://  %}{{ second_post. image }}{% else %}{{ second_post. image | absolute_url }}{% endif %}  alt= {{ second_post. title }} &gt;                        {% endif %}                                    {{ second_post. title }}          :                       In             {% for category in second_post. categories %}            {{ category }},             {% endfor %}                                                      {{ second_post. date | date: '%b %d, %Y' }}                                    {%- assign third_post = site. posts[2] -%}                        {% if third_post. image %}                         &lt;img class= w-100  src= {% if third_post. image contains  ://  %}{{ third_post. image }}{% else %}{{site. baseurl}}/{{ third_post. image }}{% endif %}  alt= {{ third_post. title }} &gt;                        {% endif %}                                    {{ third_post. title }}          :                       In             {% for category in third_post. categories %}            {{ category }},             {% endfor %}                                                      {{ third_post. date | date: '%b %d, %Y' }}                                    {%- assign fourth_post = site. posts[3] -%}                        {% if fourth_post. image %}                        &lt;img class= w-100  src= {% if fourth_post. image contains  ://  %}{{ fourth_post. image }}{% else %}{{site. baseurl}}/{{ fourth_post. image }}{% endif %}  alt= {{ fourth_post. title }} &gt;                        {% endif %}                                    {{ fourth_post. title }}          :                       In             {% for category in fourth_post. categories %}            {{ category }},             {% endfor %}                                                      {{ fourth_post. date | date: '%b %d, %Y' }}                                  {% for post in site. posts %} {% if post. tags contains  sticky  %}                    {{post. title}}                  {{ post. excerpt | strip_html | strip_newlines | truncate: 136 }}                 Read More            	             {% endif %}{% endfor %}  {% endif %}                All Stories:         {% for post in paginator. posts %}          {% include main-loop-card. html %}        {% endfor %}                   {% if paginator. total_pages &gt; 1 %}              {% if paginator. previous_page %}        &laquo; Prev       {% else %}        &laquo;       {% endif %}       {% for page in (1. . paginator. total_pages) %}        {% if page == paginator. page %}        {{ page }}        {% elsif page == 1 %}        {{ page }}        {% else %}        {{ page }}        {% endif %}       {% endfor %}       {% if paginator. next_page %}        Next &raquo;       {% else %}        &raquo;       {% endif %}            {% endif %}                     {% include sidebar-featured. html %}      "
+    "title": "Precisamos falar de dados",
+    "body": "  {% if page. url ==  /  %}            {% assign latest_post = site. posts[0] %}          &lt;div class= topfirstimage  style= background-image: url({% if latest_post. image contains  ://  %}{{ latest_post. image }}{% else %} {{site. baseurl}}/{{ latest_post. image}}{% endif %}); height: 200px;  background-size: cover;  background-repeat: no-repeat; &gt;&lt;/div&gt;           {{ latest_post. title }}  :       {{ latest_post. excerpt | strip_html | strip_newlines | truncate: 136 }}               In         {% for category in latest_post. categories %}        {{ category }},         {% endfor %}                                {{ latest_post. date | date: '%b %d, %Y' }}                            {%- assign second_post = site. posts[1] -%}                        {% if second_post. image %}                                                                  {% endif %}                                    {{ second_post. title }}          :                       In             {% for category in second_post. categories %}            {{ category }},             {% endfor %}                                                      {{ second_post. date | date: '%b %d, %Y' }}                                    {%- assign third_post = site. posts[2] -%}                        {% if third_post. image %}                                                         {% endif %}                                    {{ third_post. title }}          :                                   {% for category in third_post. categories %}            {{ category }},             {% endfor %}                                                      {{ third_post. date | date: '%b %d, %Y' }}                                    {%- assign fourth_post = site. posts[3] -%}                        {% if fourth_post. image %}                                                        {% endif %}                                    {{ fourth_post. title }}          :                                   {% for category in fourth_post. categories %}            {{ category }},             {% endfor %}                                                      {{ fourth_post. date | date: '%b %d, %Y' }}                                  {% for post in site. posts %} {% if post. tags contains  sticky  %}                    {{post. title}}                  {{ post. excerpt | strip_html | strip_newlines | truncate: 136 }}                 Read More            	             {% endif %}{% endfor %}  {% endif %}                All Stories:         {% for post in paginator. posts %}          {% include main-loop-card. html %}        {% endfor %}                   {% if paginator. total_pages &gt; 1 %}              {% if paginator. previous_page %}        &laquo; Prev       {% else %}        &laquo;       {% endif %}       {% for page in (1. . paginator. total_pages) %}        {% if page == paginator. page %}        {{ page }}        {% elsif page == 1 %}        {{ page }}        {% else %}        {{ page }}        {% endif %}       {% endfor %}       {% if paginator. next_page %}        Next &raquo;       {% else %}        &raquo;       {% endif %}            {% endif %}                     {% include sidebar-featured. html %}      "
     }, {
     "id": 8,
     "url": "http://localhost:4000/privacy-policy.html",
@@ -143,14 +143,9 @@ var documents = [{
     "body": "      Sitemap: {{ “sitemap. xml”   absolute_url }}   "
     }, {
     "id": 11,
-    "url": "http://localhost:4000/welcome-to-jekyll/",
-    "title": "Welcome to Jekyll!",
-    "body": "2019/02/04 - You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post. ext and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works. Jekyll also offers powerful support for code snippets: {% highlight ruby %}def print_hi(name) puts “Hi, #{name}”endprint_hi(‘Tom’)#=&gt; prints ‘Hi, Tom’ to STDOUT. {% endhighlight %} Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk. "
-    }, {
-    "id": 12,
     "url": "http://localhost:4000/myfirst-post/",
-    "title": "Meu primeiro post",
-    "body": "2019/01/18 - Olá. Me chamo Adriano Avelar, sou responsável pelo blog datablow. Primeiro post Adriano: osdodsoidso "
+    "title": "Primeiro Post",
+    "body": "2019/01/18 - Olá. Me chamo Adriano Avelar, sou Engenheiro da Computação formado pela Universidade Federal do Pará. Tenho Doutorado em Computação pela Universidade Federal de Pernambuco. Já morei em Belém, Recife e agora estou em São Paulo. Já fui Programador, Professor Universitário e já tive uma escola de programação para crianças. Hoje trabalho como Cientista de Dados em um grande empresa. Objetivo do Blog: O objetivo deste blog é passar o conhecimento que adquiri ao longo de minha jornado. Como professor sempre me preocupei muito em compartilhar o conhecimento. Espero que você goste do conteúdo e caso ache algum erro ou queira entrar em contato comigo, me envie um e-mail: eam. avelar@gmail. com "
     }];
 
 var idx = lunr(function () {
@@ -227,16 +222,14 @@ function lunr_search(term) {
 					<p class="text-uppercase font-weight-bold">
                         <span class="catlist">
 						
-                          <a class="sscroll text-danger" href="/categories.html#jekyll">jekyll</a><span class="sep">, </span>
-                        
-                          <a class="sscroll text-danger" href="/categories.html#tutorial">tutorial</a><span class="sep">, </span>
-                        
                         </span>
 					</p>
-					<h1 class="display-4 mb-4 article-headline">Meu primeiro post</h1>
+					<h1 class="display-4 mb-4 article-headline">Primeiro Post</h1>
 					<div class="d-flex align-items-center">
                         
-						<small class="ml-3">  <span><a target="_blank" href="" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+                        <img class="rounded-circle" src="/assets/images/avatar1.jpg" alt="Adriano" width="70"/>
+                        
+						<small class="ml-3"> Adriano <span><a target="_blank" href="https://twitter.com/AdrianoAvelar14" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
                             <span class="text-muted d-block mt-1">Jan 18, 2019 · <span class="reading-time">
   
   
@@ -249,7 +242,7 @@ function lunr_search(term) {
 				</div>
                 
 				<div class="col-md-6 pr-0 align-self-center">
-					<img class="rounded" src="/assets/images/home.jpg" alt="Meu primeiro post">
+					<img class="rounded" src="/assets/images/demo1.jpg" alt="Primeiro Post">
 				</div>
                 
 			</div>
@@ -289,11 +282,17 @@ function lunr_search(term) {
             
             <!-- Article -->
 			<article class="article-post">                
-			<p>Olá. Me chamo Adriano Avelar, sou responsável pelo blog datablow. Primeiro post</p>
+			<p>Olá. Me chamo Adriano Avelar, sou Engenheiro da Computação formado pela Universidade Federal do Pará. 
+Tenho Doutorado em Computação pela Universidade Federal de Pernambuco. Já morei em Belém, Recife e agora estou em São Paulo.</p>
 
-<h4 id="adriano">Adriano</h4>
+<p>Já fui <code class="highlighter-rouge">Programador</code>, <code class="highlighter-rouge">Professor Universitário</code> e já tive uma <code class="highlighter-rouge">escola de programação</code> para crianças.</p>
 
-<p>osdodsoidso</p>
+<p>Hoje trabalho como Cientista de Dados em um grande empresa.</p>
+
+<h4 id="objetivo-do-blog">Objetivo do Blog</h4>
+
+<p>O objetivo deste blog é passar o conhecimento que adquiri ao longo de minha jornado. Como professor sempre me preocupei muito em compartilhar o conhecimento. Espero que você goste do conteúdo e caso ache algum erro ou queira entrar em contato comigo, me envie um e-mail: <code class="highlighter-rouge">eam.avelar@gmail.com</code></p>
+
                 
 			</article>
 			
@@ -301,7 +300,7 @@ function lunr_search(term) {
 			<div class="mb-4">
 				<span class="taglist">
 				
-				  <a class="sscroll btn btn-light btn-sm font-weight-bold" href="/tags.html#sticky">sticky</a>
+				  <a class="sscroll btn btn-light btn-sm font-weight-bold" href="/tags.html#featured">featured</a>
 				
 				</span>
 			</div>
@@ -337,11 +336,13 @@ function lunr_search(term) {
                 				
 				<div class="row mt-5">
 					<div class="col-md-2 align-self-center">
-                          
+                         
+                        <img class="rounded-circle" src="/assets/images/avatar1.jpg" alt="Adriano" width="90"/>
+                         
 					</div>
 					<div class="col-md-10">		
-                        <h5 class="font-weight-bold">Written by  </h5>
-											
+                        <h5 class="font-weight-bold">Written by Adriano <span><a target="_blank" href="https://twitter.com/AdrianoAvelar14" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span></h5>
+						Olá, me chamo Adriano Avelar, criador do blog DataBox, que é um espaço 					
 					</div>
 				</div>				
                 
@@ -381,10 +382,6 @@ function lunr_search(term) {
         <div class="row prevnextlinks small font-weight-bold">
           
           
-            <div class="col-md-6 text-right pr-0">
-                <a class="text-dark" href="/welcome-to-jekyll/"> Welcome to Jekyll!  <img height="30px" class="ml-1" src="/assets/images/demo1.jpg"> </a>
-            </div>
-          
         </div>
     </div>
 </div>
@@ -409,11 +406,11 @@ function lunr_search(term) {
                 <span>Copyright © <script>document.write(new Date().getFullYear())</script>.</span>
 
                 <!--  Github Repo Star Btn-->
-                <a class="text-dark ml-1" target="_blank" href="https://github.com/wowthemesnet/mundana-theme-jekyll"><i class="fab fa-github"></i> Fork on Github</a>
+                <a class="text-dark ml-1" target="_blank" href="https://github.com/EdsonAvelar"><i class="fab fa-github"></i> Github</a>
 
             </div>
             <div>
-                Made with <a target="_blank" class="text-dark font-weight-bold" href="https://www.wowthemes.net/mundana-jekyll-theme/"> Mundana Jekyll Theme </a> by <a class="text-dark" target="_blank" href="https://www.wowthemes.net">WowThemes</a>.
+                Feito de <i class="fa fa-heart" aria-hidden="true"></i>.
             </div>
         </div>
         </div>
