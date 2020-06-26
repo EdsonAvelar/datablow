@@ -7,7 +7,8 @@ url: 'http://www.adrianoavelar.com'
 baseurl: ''
 disqus: 'demowebsite'
 email: 'eam.avelar@gmail.com'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+#mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+mailchimp-list: 'https://adrianoavelar.us10.list-manage.com/subscribe/post?u=4e3cbe1e0213efddbca5242ca&amp;id=b8769c4dbb'
 
 include: ["_pages"]
 permalink: /:title/
@@ -22,9 +23,9 @@ plugins:
 authors:
     adriano:
       name:           Adriano
-      site:           https://adrianoavelar.com.br
-      avatar:         assets/images/avatar1.jpg
-      bio:            "Olá, me chamo Adriano Avelar, criador do blog DataBox, que é um espaço "
+      site:           /portfolio-pt.html
+      avatar:         assets/images/adriano-avatar.png
+      bio:            "Olá, me chamo Adriano Avelar, criador do blog Datablow, seja bem vindo "
       email:          eam.avelar@gmail.com
       twitter:        https://twitter.com/AdrianoAvelar14
  
@@ -37,7 +38,7 @@ defaults:
     values:
       layout: post
       author: adriano
-      avatar: /assets/images/avatar1.jpg
+      avatar: assets/images/adriano-avatar.png
       
   # all pages
   - scope:

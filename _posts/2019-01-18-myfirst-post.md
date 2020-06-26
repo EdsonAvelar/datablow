@@ -3,6 +3,7 @@ layout: post
 title:  "Primeiro Post"
 author: adriano
 image: "assets/images/demo1.jpg"
+categories: [ portfolio ]
 tag: [featured]
 ---
 

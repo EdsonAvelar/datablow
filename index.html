@@ -32,7 +32,7 @@ description: "Um blog desenvolvido por @adrianoavelar."
     </p>
     <div>
         <small class="d-block text-muted">
-            In <span class="catlist">
+            Em <span class="catlist">
                 {% for category in latest_post.categories %}
                 <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                 {% endfor %}
@@ -66,7 +66,7 @@ description: "Um blog desenvolvido por @adrianoavelar."
                     <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
-                        In <span class="catlist">
+                        Em <span class="catlist">
                         {% for category in second_post.categories %}
                         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                         {% endfor %}
@@ -95,7 +95,7 @@ description: "Um blog desenvolvido por @adrianoavelar."
                     <a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
-                         <span class="catlist">
+                        Em  <span class="catlist">
                         {% for category in third_post.categories %}
                         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                         {% endfor %}
@@ -123,7 +123,7 @@ description: "Um blog desenvolvido por @adrianoavelar."
                     <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
-                         <span class="catlist">
+                        Em  <span class="catlist">
                         {% for category in fourth_post.categories %}
                         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                         {% endfor %}
