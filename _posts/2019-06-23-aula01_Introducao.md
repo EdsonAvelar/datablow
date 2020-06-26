@@ -3,7 +3,7 @@ layout: post
 title:  "Curso de Spark e Python: Aula 01 - Introdução"
 categories: [ curso_spark ]
 author: adriano
-permalink: "/spark/aula01_Introcucao"
+permalink: "/spark/aula01_introducao.html"
 image: "https://miro.medium.com/proxy/0*o3JKcXgKhRaTl3hY.png"
 tag: [featured]
 ---
@@ -50,4 +50,4 @@ Também veremos um pouco sobre pipeline e validação cruzada.
 
 <br><br><br>
 Link da Próxima Aula:<br>
-[Aula 02 ](/spark/aula02_dataframe1) 
+[Aula 02 ](/spark/aula02_dataframe1.html) 

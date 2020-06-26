@@ -3,7 +3,7 @@ layout: post
 title:  "Curso de Spark e Python: Aula 02 - DataFrame I"
 categories: [ curso_spark ]
 author: adriano
-permalink: "/spark/aula02_dataframe1"
+permalink: "/spark/aula02_dataframe1.html"
 image: "https://files.keepingcurrentmatters.com/wp-content/uploads/2020/05/05155523/20200506-KCM-Shar.jpg"
 tag: [featured]
 ---
@@ -277,5 +277,5 @@ df.printSchema()
 
 <br><br><br>
 Link da Próxima Aula:<br>
-[Aula 03 ](/spark/aula03_dataframe2) 
+[Aula 03 ](/spark/aula03_dataframe2.html) 
 
