@@ -3,10 +3,11 @@ layout: post
 title:  "Curso de Spark e Python: Aula 03 - Hello World"
 categories: [ curso_spark ]
 author: adriano
-permalink: "/spark/aula03_dataframe2"
-image: "https://penseemti.com.br/wp-content/uploads/2017/02/A-importa%CC%82ncia-do-Banco-de-Dados.jpg"
+permalink: "/spark/aula03_dataframe2.html"
+image: "https://blog.wavy.global/wp-content/uploads/2019/07/shahadat-shemul-BfrQnKBulYQ-unsplash-780x450.jpg"
 tag: [featured]
 ---
+
 
 # Curso de Spark e Python
 ## Aula 03 - DataFrame II
