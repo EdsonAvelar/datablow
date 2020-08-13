@@ -3,7 +3,7 @@ layout: post
 title:  "Curso de Spark e Python: Aula 04 - Operações Básicas"
 categories: [ curso_spark ]
 author: adriano
-permalink: "/spark/aula04_basic_operations"
+permalink: "/spark/aula04_basic_operations.html"
 image: "https://penseemti.com.br/wp-content/uploads/2017/02/A-importa%CC%82ncia-do-Banco-de-Dados.jpg"
 tag: [featured]
 ---
